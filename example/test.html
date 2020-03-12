@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example</title>
+</head>
+<body>
+    <p>example</p>
+    
+    <script src="../release/bundle.js"></script>
+    <script>
+        var urlArgs = window.lyUrlFormat()
+        console.log("url-arguments", urlArgs)
+
+        var testUrl = 'http://localhost:8888#/example/test.html?name=%E5%BC%A0%E4%B8%89&age=14'
+        var urlArgs1 = window.lyUrlFormat(testUrl)
+        console.log("url-arguments1", urlArgs1)
+    </script>
+</body>
+</html>
