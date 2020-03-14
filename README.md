@@ -4,9 +4,13 @@ url参数格式化工具
 
 ## 简介
 
-特色（亮点）
+格式化路径参数的工具，支持获取当前路径和传入路径
 
 ## 安装下载
+
+- 下载地址 [https://github.com/ly-utils/ly-url-format/releases](https://github.com/ly-utils/ly-url-format/releases)
+- `npm i ly-url-format`
+- CDN http://unpkg.com/ly-url-format/release/bundle.js
 
 ## 快速使用
 
@@ -17,9 +21,8 @@ url参数格式化工具
 
 ## 交流 & 提问
 
-https://github.com/ly-utils/ly-url-format/issues
+[https://github.com/ly-utils/ly-url-format/issues](https://github.com/ly-utils/ly-url-format/issues)
 
 ## 关于作者
 
-- 个人主页
-- 收款二维码
+- [个人GitHub主页](https://github.com/longyzw)
