@@ -10,11 +10,11 @@
     
     <script src="../release/bundle.js"></script>
     <script>
-        var urlArgs = window.lyUrlFormat()
+        var urlArgs = lyUrlFormat()
         console.log("url-arguments", urlArgs)
 
         var testUrl = 'http://localhost:8888#/example/test.html?name=%E5%BC%A0%E4%B8%89&age=14'
-        var urlArgs1 = window.lyUrlFormat(testUrl)
+        var urlArgs1 = lyUrlFormat(testUrl)
         console.log("url-arguments1", urlArgs1)
     </script>
 </body>
