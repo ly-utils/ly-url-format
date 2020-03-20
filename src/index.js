@@ -11,7 +11,7 @@ function lyUrlFormat(url="") {
         if(typeof location == "string" && location.indexOf('?') > -1){
             urlData = location.split("?")[1];
         }
-        if (location.hash && location.indexOf('?') > -1) {
+        if (location.hash && location.hash.indexOf('?') > -1) {
             urlData = location.hash.split("?")[1];
         }
         if (urlData && urlData.indexOf("&") > -1) {

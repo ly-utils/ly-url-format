@@ -1,6 +1,6 @@
 {
   "name": "ly-url-format",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "url参数格式化工具",
   "main": "src/index.js",
   "scripts": {
