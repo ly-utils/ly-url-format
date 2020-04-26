@@ -5,7 +5,6 @@ function lyUrlFormat(url="") {
             urlData,
             arrData;
         if (typeof location == "object" && location.search) {
-            console.log(location.search)
             urlData = location.search.slice(1);
         }
         if(typeof location == "string" && location.indexOf('?') > -1){
